@@ -32,4 +32,4 @@ jobs:
           platforms: linux/amd64
           push: true
           # github.repository_owner and github.repository are hardcoded
-          tags: ghcr.io/<username>/<repo>:latest,ghcr.io/<username>/<repo>:${{ github.sha }}
+          tags: ghcr.io/tommylianggh/dockerpublic:latest,ghcr.io/<username>/<repo>:${{ github.sha }}
